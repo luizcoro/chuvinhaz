@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">ChuvinhaZ</string>
+
+    <!-- Labels -->
+    <string name="labels.name">Nome:\u0020</string>
+    <string name="labels.rain_level">Tempo:\u0020</string>
+
+    <!-- Options -->
+    <string name="options.general.unknown">Desconhecido</string>
+
+        <!-- Weather -->
+        <string name="options.weather.clear">Céu limpo</string>
+        <string name="options.weather.mostly_cloud">Parcialmente nublado</string>
+        <string name="options.weather.cloudy">Nublado</string>
+        <string name="options.weather.drizzle">Garoa</string>
+        <string name="options.weather.showers">Chuva</string>
+        <string name="options.weather.thunderstorms">Tempestades</string>
+
+        <!-- Location -->
+        <string name="options.location.indoors">Fechado</string>
+        <string name="options.location.outdoors">Ao ar livre</string>
+        <string name="options.location.car">No carro</string>
+
+        <!-- Period -->
+        <string name="options.period.day">Dia</string>
+        <string name="options.period.night">Noite</string>
+
+        <!-- Ar -->
+        <string name="options.air.on">Ligado</string>
+        <string name="options.air.off">Desligado</string>
+
+        <!-- Humidity -->
+        <string name="options.humidity.dry">Seco</string>
+        <string name="options.humidity.little_wet">Pouco úmido</string>
+        <string name="options.humidity.wet">Úmido</string>
+        <string name="options.humidity.very_wet">Muito Úmido</string>
+
+        <!-- Wind -->
+        <string name="options.wind.no_wind">Sem vento</string>
+        <string name="options.wind.weak_wind">Vento fraco</string>
+        <string name="options.wind.strong_wind">Vento forte</string>
+
+        <!-- Activity recognitions -->
+        <string name="options.recognition.in_vehicle">Em veículo</string>
+        <string name="options.recognition.on_bicycle">De bicicleta</string>
+        <string name="options.recognition.on_foot">À pé</string>
+        <string name="options.recognition.running">Correndo</string>
+        <string name="options.recognition.still">Parado</string>
+        <string name="options.recognition.tilting">Analisando...</string>
+        <string name="options.recognition.walking">Andando</string>
+
+        <!-- Network -->
+        <string name="options.network.1xrtt">1xRTT</string>
+        <string name="options.network.cdma">CDMA</string>
+        <string name="options.network.edge">EDGE</string>
+        <string name="options.network.ehrpd">EHRPD</string>
+        <string name="options.network.evdo_0">EVDO rev. 0</string>
+        <string name="options.network.evdo_a">EVDO rev. A</string>
+        <string name="options.network.evdo_b">EVDO rev. B</string>
+        <string name="options.network.gprs">GPRS</string>
+        <string name="options.network.hsdpa">HSDPA</string>
+        <string name="options.network.hspa">HSPA</string>
+        <string name="options.network.hspa_plus">HSPA+</string>
+        <string name="options.network.hsupa">HSUPA</string>
+        <string name="options.network.iden">iDen</string>
+        <string name="options.network.lte">LTE</string>
+        <string name="options.network.umts">UMTS</string>
+
+        <!-- Neighbor networks -->
+        <string name="options.neighbor_network.gsm">GSM</string>
+        <string name="options.neighbor_network.umts">UMTS</string>
+
+        <!-- Phone -->
+        <string name="options.phone.cdma">CDMA</string>
+        <string name="options.phone.gsm">GSM</string>
+        <string name="options.phone.sip">SIP</string>
+        <string name="options.phone.none">NONE</string>
+
+        <!-- Battery -->
+        <string name="options.battery.cold">Frio</string>
+        <string name="options.battery.dead">Morto</string>
+        <string name="options.battery.good">Bom</string>
+        <string name="options.battery.over_voltage">Sobrevoltagem</string>
+        <string name="options.battery.overheat">Superaquecimento</string>
+        <string name="options.battery.unspecified_failure">Falha não especificada</string>
+
+        <string name="options.battery.plugged.ac">AC</string>
+        <string name="options.battery.plugged.usb">USB</string>
+        <string name="options.battery.plugged.wireless">Sem fio</string>
+        <string name="options.battery.plugged.not_plugged">Desplugado</string>
+
+        <string name="options.battery.status.charging">Carregando</string>
+        <string name="options.battery.status.discharging">Descarregando</string>
+        <string name="options.battery.status.full">Cheio</string>
+        <string name="options.battery.status.not_charging">Não carregando</string>
+
+
+    <!-- Questions -->
+    <string name="ask.indoors_or_outdoors">Você está ao ar livre ou em ambiente fechado?</string>
+    <string name="ask.day_or_night">É dia ou noite?</string>
+    <string name="ask.has_ar">O ar condicionado está:</string>
+    <string name="ask.how_warm_does_it_feel">Qual a sensação térmica?</string>
+    <string name="ask.how_is_the_weather">Como está o tempo?</string>
+    <string name="ask.how_windy_is_it">Como está o vento?</string>
+    <string name="ask.how_wet_does_it_feel">Qual a sensação de umidade no ar?</string>
+
+    <!-- Temperatures -->
+    <string name="temperatures.0c">0°C</string>
+    <string name="temperatures.25c">25°C</string>
+    <string name="temperatures.50c">50°C</string>
+
+    <!-- Activities -->
+    <string name="activities.attributes_activity">Attributes activity</string>
+
+    <!-- Alerts -->
+    <string name="alerts.start_collecting">Deseja iniciar a coleta?</string>
+    <string name="alerts.internet_status_changed1">Estado da conexão mudou, continuar a coleta? Os dados serão enviados pela internet.</string>
+    <string name="alerts.internet_status_changed2">Estado da conexão mudou, continuar a coleta? Os dados serão gravados em disco.</string>
+    <string name="alerts.gps_disabled">GPS desabilitado, gostaria de habilitá-lo?</string>
+    <string name="alerts.newer_version">Nova versão encontrada. Deseja atualizar o aplicativo?</string>
+
+
+    <!-- Toasts -->
+    <string name="toasts.fingered_by">Você foi cutucado por:\u0020</string>
+    <string name="toasts.chuvinhaz_is_running">ChuvinhaZ está executando</string>
+    <string name="toasts.collection_started">Coleta iniciada</string>
+    <string name="toasts.collection_stopped">Coleta interrompida</string>
+    <string name="toasts.collection_will_start_in">Coleta será iniciada em 10 segundos</string>
+    <string name="toasts.collection_will_no_start_anymore">Inicialização interrompida</string>
+    <string name="toasts.wait">Espere</string>
+    <string name="toasts.start_collecting_to_show_more">Inicie a coleta para mostrar mais atributos</string>
+    <string name="toasts.system_starting">Aplicativo está inicializando</string>
+    <string name="toasts.data_will_be_write_to_disk">Dados serão escritos em disco</string>
+    <string name="toasts.maybe_outdated">Talvez sua versão não esteja atualizada</string>
+
+
+    <!-- Maps -->
+    <string name="maps.user_location">Ambiente:\u0020</string>
+    <string name="maps.user_period">Período:\u0020</string>
+    <string name="maps.user_air">Ar cond.:\u0020</string>
+    <string name="maps.user_temperature">Temperatura:\u0020</string>
+    <string name="maps.user_rain_level">Tempo:\u0020</string>
+    <string name="maps.user_humidity_level">Ar:\u0020</string>
+    <string name="maps.user_wind_level">Vento:\u0020</string>
+    <string name="maps.user_activity">Atividade:\u0020</string>
+
+
+
+    <!-- Others -->
+    <string name="others.default_value"> </string>
+    <string name="others.save">Salvar</string>
+    <string name="others.cancel">Cancelar</string>
+    <string name="others.yes">Sim</string>
+    <string name="others.no">Não</string>
+    <string name="others.no_internet_connection">Sem conexão com internet</string>
+
+    <string name="others.logo">logo</string>
+    <string name="holder.loading">Carregando ...</string>
+    <string name="menu.search_map">Procurar</string>
+    <string name="menu.toggle_collecting">Alternar estado de coleta</string>
+    <string name="menu.set_perfil">Definir perfil</string>
+    <string name="menu.exit">Sair</string>
+
+
+</resources>

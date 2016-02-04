@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageButton
+        android:id="@+id/go_my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/crosshair_gps"
+        android:layout_margin="9dp"
+        android:background="@drawable/my_rectangle_shape"
+        android:alpha="0.75"
+        android:bottomRightRadius="30dp"
+        android:layout_alignParentEnd="true"/>
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_alignParentTop="true"
+        android:layout_margin="9dp"
+        android:alpha="0.75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_rectangle_shape"
+        android:maxWidth="1000000dp"/>
+
+</RelativeLayout>

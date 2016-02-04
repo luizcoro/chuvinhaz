@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/set_perfil"
+        android:title="@string/menu.set_perfil"
+        android:orderInCategory="99"
+        android:icon="@mipmap/pen"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/exit"
+        android:title="@string/menu.exit"
+        android:orderInCategory="102"
+        android:icon="@mipmap/window_close"
+        app:showAsAction="ifRoom" />
+</menu>
